@@ -1,0 +1,19 @@
+# Core dependencies
+numpy<2.0.0
+cython
+pandas
+scikit-learn
+matplotlib
+Pillow
+opencv-python
+graphviz
+gym
+seaborn
+ipython
+jupyter
+
+# Torch dependencies
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch
+torchvision
+torchaudio

@@ -26,9 +26,8 @@ Exercise code templates for students in the course Foundations of Artificial Int
 4. Create the python virtual environment with the command `python -m venv .$NAME OF YOUR ENVIRONMENT$` (you can change the NAME OF THE ENVIRONMENT to whatever you like for example venv or Faiml_venv)
 5. Activate the virtual environment with the command `.\$NAME OF THE ENVIRONMENT$\Scripts\activate` on Windows commandline, `source .$NAME OF THE ENVIRONMENT$/bin/activate` on Linux or Mac
 6. (Optional) Run pip -V, it should print out the path of the virtual environment if you've activated it
-7. First install these packages manually with commands
-    - `pip install cython`
-    - `pip install vose --no-build-isolation`
+7. First install packages manually with the command
+    - `pip install cython numpy<2.0.0 vose --no-build-isolation`
 8. Then install the rest of required packages with the command `pip install -r requirements.txt` (this can take a few minutes)
 9. After installation, you can deactivate the environment in the command shell or leave it running if you wish. To deactivate just enter the command `deactivate`.
 
